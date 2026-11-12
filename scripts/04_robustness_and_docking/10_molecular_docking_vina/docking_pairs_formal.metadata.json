@@ -1,0 +1,17 @@
+{
+  "pair_candidates": "E:\\PythonProject\\results\\38b_PAIR_VS_SINGLE\\pair_proxy_signature_increment_audit.csv",
+  "drug_target_evidence": "E:\\PythonProject\\results\\37e_DRUG_ANCHOR_BRIDGE\\drug_anchor_bridge_master.csv",
+  "target_structure_map": "E:\\Vina\\Vina_Bridge_Integrated_Formal_V3_1_Bortezomib_Safe\\bridge_integration\\target_structure_map.csv",
+  "ligand_map": "E:\\Vina\\Vina_Bridge_Integrated_Formal_V3_1_Bortezomib_Safe\\bridge_integration\\ligand_map.csv",
+  "n_selected_source_pairs": 2,
+  "n_cross_docking_tasks": 1,
+  "n_native_redocking_tasks": 2,
+  "n_missing_mappings": 5,
+  "n_special_docking_deferred": 3,
+  "audit_counts_by_stage": {
+    "special_docking_deferred": 3,
+    "target_structure_disabled": 2
+  },
+  "standard_vina_scope": "non-covalent small-molecule docking only",
+  "interpretation": "Each drug pair is decomposed into individual drug-target-PDB tasks; Vina does not test pair synergy. Covalent-required tasks are explicitly deferred."
+}

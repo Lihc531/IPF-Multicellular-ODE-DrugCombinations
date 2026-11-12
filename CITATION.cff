@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this codebase or pipeline, please cite it as below."
+authors:
+  - family-names: "Authors"
+    given-names: "Research Team"
+title: "Integrative Multicellular Molecular State Modeling Prioritizes Mechanism-Linked Candidate Drug Combinations for Idiopathic Pulmonary Fibrosis"
+version: 1.0.0
+date-released: 2026-11-12
+url: "https://github.com/placeholder/IPF-Multicellular-ODE-DrugCombinations"

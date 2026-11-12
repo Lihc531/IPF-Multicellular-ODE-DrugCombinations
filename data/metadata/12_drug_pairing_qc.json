@@ -1,0 +1,82 @@
+{
+  "status": "ok",
+  "script_version": "3.1.0-FINAL-GLOBAL-QUERY-SOURCE-AWARE",
+  "perturbation_mode": "signature_level",
+  "global_query_scored_once": true,
+  "global_query_replicated_across_ot_signatures": false,
+  "target_source_policy": {
+    "main": "exclude suspicious-source-only rows",
+    "sensitivity": "suspicious-only x0.1; mixed-source x0.7",
+    "suspicious_sources": [
+      "guidetopharmacology"
+    ],
+    "minimum_direction_consistency": 0.6
+  },
+  "network_missing_components_renormalized": false,
+  "network_drug_scope": "query_and_direct_signature_targets",
+  "network_mass_calibration": "mass/(mass+signature_q0.75)",
+  "n_signatures": 12,
+  "n_signature_gene_rows": 112,
+  "query_input_qc": {
+    "source_reversers_only": true,
+    "rows_retained": 100,
+    "unique_drugs": 94,
+    "drugs_with_multiple_context_rows": 5,
+    "context_consistency_warnings": 0,
+    "strict_q_provenance": [
+      "column:qvalue_strict"
+    ],
+    "best_arm_q_provenance": [
+      "column:qvalue_best_arm"
+    ],
+    "z_arm_columns_available": true
+  },
+  "n_signature_query_rows_loaded": 100,
+  "n_signature_query_drugs_aggregated": 94,
+  "n_query_drugs_with_main_target_match": 22,
+  "n_query_drugs_with_sensitivity_target_match": 31,
+  "n_network_rows_main": 396,
+  "n_network_rows_sensitivity": 1812,
+  "n_primary_drugs_evaluated": 94,
+  "n_final_candidate_a": 0,
+  "n_strict_pending_review": 0,
+  "n_one_arm_priority_a_source_robust": 7,
+  "n_one_arm_priority_a_context_relevant": 4,
+  "n_one_arm_priority_b": 66,
+  "n_one_arm_priority_b_suspicious_mechanism": 4,
+  "n_confirmed_hard_blocks": 1,
+  "n_manual_review_flags": 1,
+  "n_translation_metadata_complete": 0,
+  "strict_q_min": 0.5856650304823712,
+  "strict_q_max": 0.9286099024708432,
+  "best_arm_q_min": 7.794521775005455e-08,
+  "n_strict_q_le_005": 0,
+  "n_strict_q_le_025": 0,
+  "n_best_arm_q_le_005": 94,
+  "target_qc_base": {
+    "rows_input": 89700,
+    "example_prefix_rows_kept": 26,
+    "true_template_rows": 0,
+    "blank_drug_id_repaired": 4,
+    "rows_dropped_missing_identity_or_gene": 0,
+    "rows_output": 89590,
+    "unknown_action_rows": 58775,
+    "unique_drugs": 26635,
+    "unique_genes": 5849
+  },
+  "target_source_qc": {
+    "raw_rows": 89590,
+    "directional_raw_rows": 30884,
+    "suspicious_source_only_rows": 15634,
+    "suspicious_source_only_directional_rows": 14570,
+    "mixed_suspicious_source_rows": 201,
+    "main_rows_excluded_by_source_policy": 15634,
+    "main_consolidated_pairs": 16272,
+    "sensitivity_consolidated_pairs": 30768,
+    "main_direction_conflict_pairs": 2,
+    "sensitivity_direction_conflict_pairs": 46,
+    "main_scored_directional_pairs": 16270,
+    "sensitivity_scored_directional_pairs": 30722
+  },
+  "interpretation": "Final tiers remain strict. One-arm evidence is hierarchically reported. Mechanistic priority requires support that survives exclusion of suspicious-only target sources."
+}

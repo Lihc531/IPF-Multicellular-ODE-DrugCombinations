@@ -1,0 +1,17 @@
+name: celloracle-ipf
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scanpy
+  - anndata
+  - python-igraph
+  - leidenalg
+  - matplotlib
+  - h5py
+  - pip:
+      - celloracle==0.18.0

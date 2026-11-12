@@ -1,0 +1,10 @@
+.Rhistory
+.RData
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+data/raw/
+*.rds
+*.h5ad
+*.tar.gz
+*.zip

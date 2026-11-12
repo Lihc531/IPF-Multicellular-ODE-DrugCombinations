@@ -1,0 +1,50 @@
+{
+  "run_time": "2026-07-19T21:59:31.076547",
+  "script_version": "3.1.0-FINAL-GLOBAL-QUERY-SOURCE-AWARE",
+  "signature_path": "E:\\PythonProject\\results\\36a_OT_FINALIZED_FOR_DRUG_PAIRING\\08_drug_pairing_signatures_long.csv",
+  "signature_sha256": "b1235b5d015d41ca1757a09999ee32ccebe07f65915085faf74cf0a8b4d63bde",
+  "drug_perturbation_path": "E:\\PythonProject\\drug_data\\drug_perturbation_signature.csv",
+  "drug_perturbation_sha256": "6c018fa5d7bfa56bfa40d57ede0801720b51a5b20173d821e20068f996fc1762",
+  "drug_target_path": "E:\\PythonProject\\drug_data\\drug_target_actions.csv",
+  "drug_target_sha256": "4cbe34ddca389058720beaeccf9081c07f26760d8d58b016309dfeca1eafebc2",
+  "drug_metadata_path": "E:\\PythonProject\\drug_data\\drug_metadata.csv",
+  "drug_metadata_sha256": "98ba293ee2854b0768caa81568796317ca7c858988ab4f2e753117c719c84120",
+  "network_edges_path": "E:\\PythonProject\\drug_data\\gene_network_edges.csv",
+  "network_edges_sha256": "6809be41a8a4c05a26541a0dfc0e2386bc06077ed9b2c6cb6c7a6ee01c858165",
+  "gene_alias_mapping_path": "E:\\PythonProject\\drug_data\\gene_alias_mapping.csv",
+  "gene_alias_mapping_sha256": "e6c6ec324c3b2166de67ccaa9709914c50dc50b58ad37a170af6d9212e73eabf",
+  "final_script_schema_version": "37a-final-schema-1",
+  "effective_settings": {
+    "source_reversers_only": true,
+    "minimum_query_context_sign_consistency": 0.5,
+    "network_drug_scope": "query_and_direct_signature_targets",
+    "network_mass_reference_quantile": 0.75,
+    "main_exclude_suspicious_only_target_rows": true,
+    "sensitivity_suspicious_only_multiplier": 0.1,
+    "sensitivity_mixed_source_multiplier": 0.7,
+    "minimum_target_direction_consistency": 0.6
+  },
+  "network_drug_scope": "query_and_direct_signature_targets",
+  "v3_tiers": {
+    "final_a_min_score": 0.65,
+    "final_a_max_strict_q": 0.05,
+    "final_a_min_mechanism": 0.1,
+    "final_a_require_translation_complete": true,
+    "final_b_min_score": 0.55,
+    "final_b_max_strict_q": 0.25,
+    "one_arm_a_min_score": 0.6,
+    "one_arm_a_min_query_score": 0.7,
+    "one_arm_a_max_best_q": 0.01,
+    "one_arm_a_min_arm_balance": 0.2,
+    "one_arm_b_min_score": 0.55,
+    "one_arm_b_min_query_score": 0.65,
+    "one_arm_b_max_best_q": 0.05,
+    "one_arm_b_min_arm_balance": 0.15,
+    "mechanism_positive_cut": 0.08,
+    "mechanism_sensitivity_positive_cut": 0.05,
+    "mechanism_conflict_cut": -0.08
+  },
+  "suspicious_target_sources": [
+    "guidetopharmacology"
+  ]
+}

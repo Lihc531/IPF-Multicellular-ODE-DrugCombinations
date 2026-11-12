@@ -1,0 +1,186 @@
+{
+  "project": "E:\\Vina\\Vina_Bridge_Integrated_Formal_V3_1_Bortezomib_Safe",
+  "pairs": [
+    {
+      "pair_id": "MAP2K1_4U7Z__SELUMETINIB",
+      "receptor": "E:\\Vina\\Vina_Bridge_Integrated_Formal_V3_1_Bortezomib_Safe\\prepared\\receptors\\4U7Z.pdbqt",
+      "ligand_input": "E:\\Vina\\Vina_Bridge_Integrated_Formal_V3_1_Bortezomib_Safe\\prepared\\ligands\\SELUMETINIB_pH7p4.pdbqt",
+      "pose": "E:\\Vina\\Vina_Bridge_Integrated_Formal_V3_1_Bortezomib_Safe\\results\\pairs\\MAP2K1_4U7Z__SELUMETINIB\\docking\\MAP2K1_4U7Z__SELUMETINIB_out.pdbqt",
+      "affinity": "-9.182",
+      "output_dir": "E:\\Vina\\Vina_Bridge_Integrated_Formal_V3_1_Bortezomib_Safe\\results\\pairs\\MAP2K1_4U7Z__SELUMETINIB\\figures_bstyle",
+      "overview_pml": "E:\\Vina\\Vina_Bridge_Integrated_Formal_V3_1_Bortezomib_Safe\\results\\pairs\\MAP2K1_4U7Z__SELUMETINIB\\figures_bstyle\\MAP2K1_4U7Z__SELUMETINIB__overview.pml",
+      "pocket_pml": "E:\\Vina\\Vina_Bridge_Integrated_Formal_V3_1_Bortezomib_Safe\\results\\pairs\\MAP2K1_4U7Z__SELUMETINIB\\figures_bstyle\\MAP2K1_4U7Z__SELUMETINIB__pocket.pml",
+      "manual_pml": "E:\\Vina\\Vina_Bridge_Integrated_Formal_V3_1_Bortezomib_Safe\\results\\pairs\\MAP2K1_4U7Z__SELUMETINIB\\figures_bstyle\\MAP2K1_4U7Z__SELUMETINIB__manual_review.pml",
+      "overview_png": "E:\\Vina\\Vina_Bridge_Integrated_Formal_V3_1_Bortezomib_Safe\\results\\pairs\\MAP2K1_4U7Z__SELUMETINIB\\figures_bstyle\\MAP2K1_4U7Z__SELUMETINIB__overview.png",
+      "pocket_png": "E:\\Vina\\Vina_Bridge_Integrated_Formal_V3_1_Bortezomib_Safe\\results\\pairs\\MAP2K1_4U7Z__SELUMETINIB\\figures_bstyle\\MAP2K1_4U7Z__SELUMETINIB__pocket.png",
+      "composite_png": "E:\\Vina\\Vina_Bridge_Integrated_Formal_V3_1_Bortezomib_Safe\\results\\pairs\\MAP2K1_4U7Z__SELUMETINIB\\figures_bstyle\\MAP2K1_4U7Z__SELUMETINIB__composite_B.png",
+      "contacts": [
+        {
+          "resn": "ASP",
+          "chain": "A",
+          "resi": "208",
+          "min_distance": 2.8855399841277545,
+          "receptor_atom_serial": 1424,
+          "receptor_atom_name": "OD2",
+          "ligand_atom_serial": 30,
+          "ligand_atom_name": "O",
+          "label": "ASP208"
+        },
+        {
+          "resn": "ASP",
+          "chain": "A",
+          "resi": "190",
+          "min_distance": 2.950958827228873,
+          "receptor_atom_serial": 1252,
+          "receptor_atom_name": "OD1",
+          "ligand_atom_serial": 30,
+          "ligand_atom_name": "O",
+          "label": "ASP190"
+        },
+        {
+          "resn": "VAL",
+          "chain": "A",
+          "resi": "211",
+          "min_distance": 3.0399365124949544,
+          "receptor_atom_serial": 1448,
+          "receptor_atom_name": "CG1",
+          "ligand_atom_serial": 1,
+          "ligand_atom_name": "F",
+          "label": "VAL211"
+        },
+        {
+          "resn": "ASN",
+          "chain": "A",
+          "resi": "195",
+          "min_distance": 3.042267082292413,
+          "receptor_atom_serial": 1298,
+          "receptor_atom_name": "ND2",
+          "ligand_atom_serial": 30,
+          "ligand_atom_name": "O",
+          "label": "ASN195"
+        },
+        {
+          "resn": "LYS",
+          "chain": "A",
+          "resi": "97",
+          "min_distance": 3.0725712359520627,
+          "receptor_atom_serial": 339,
+          "receptor_atom_name": "CE",
+          "ligand_atom_serial": 24,
+          "ligand_atom_name": "O",
+          "label": "LYS97"
+        },
+        {
+          "resn": "PHE",
+          "chain": "A",
+          "resi": "209",
+          "min_distance": 3.3277086711429535,
+          "receptor_atom_serial": 1429,
+          "receptor_atom_name": "O",
+          "ligand_atom_serial": 10,
+          "ligand_atom_name": "C",
+          "label": "PHE209"
+        },
+        {
+          "resn": "LEU",
+          "chain": "A",
+          "resi": "215",
+          "min_distance": 3.4051823739705904,
+          "receptor_atom_serial": 1482,
+          "receptor_atom_name": "CD1",
+          "ligand_atom_serial": 6,
+          "ligand_atom_name": "C",
+          "label": "LEU215"
+        },
+        {
+          "resn": "LEU",
+          "chain": "A",
+          "resi": "115",
+          "min_distance": 3.425749844924466,
+          "receptor_atom_serial": 531,
+          "receptor_atom_name": "CD2",
+          "ligand_atom_serial": 1,
+          "ligand_atom_name": "F",
+          "label": "LEU115"
+        },
+        {
+          "resn": "SER",
+          "chain": "A",
+          "resi": "212",
+          "min_distance": 3.4962787360277776,
+          "receptor_atom_serial": 1450,
+          "receptor_atom_name": "N",
+          "ligand_atom_serial": 3,
+          "ligand_atom_name": "N",
+          "label": "SER212"
+        },
+        {
+          "resn": "GLY",
+          "chain": "A",
+          "resi": "210",
+          "min_distance": 3.5131434641927157,
+          "receptor_atom_serial": 1439,
+          "receptor_atom_name": "CA",
+          "ligand_atom_serial": 3,
+          "ligand_atom_name": "N",
+          "label": "GLY210"
+        },
+        {
+          "resn": "ILE",
+          "chain": "A",
+          "resi": "141",
+          "min_distance": 3.563265075741628,
+          "receptor_atom_serial": 773,
+          "receptor_atom_name": "CD1",
+          "ligand_atom_serial": 13,
+          "ligand_atom_name": "N",
+          "label": "ILE141"
+        },
+        {
+          "resn": "ILE",
+          "chain": "A",
+          "resi": "216",
+          "min_distance": 3.5715243244306762,
+          "receptor_atom_serial": 1490,
+          "receptor_atom_name": "CG1",
+          "ligand_atom_serial": 11,
+          "ligand_atom_name": "C",
+          "label": "ILE216"
+        },
+        {
+          "resn": "VAL",
+          "chain": "A",
+          "resi": "127",
+          "min_distance": 3.5765463788409066,
+          "receptor_atom_serial": 644,
+          "receptor_atom_name": "O",
+          "ligand_atom_serial": 20,
+          "ligand_atom_name": "BR",
+          "label": "VAL127"
+        },
+        {
+          "resn": "LEU",
+          "chain": "A",
+          "resi": "118",
+          "min_distance": 3.7921337001746123,
+          "receptor_atom_serial": 560,
+          "receptor_atom_name": "CD2",
+          "ligand_atom_serial": 21,
+          "ligand_atom_name": "C",
+          "label": "LEU118"
+        },
+        {
+          "resn": "MET",
+          "chain": "A",
+          "resi": "143",
+          "min_distance": 3.841884563596361,
+          "receptor_atom_serial": 789,
+          "receptor_atom_name": "CE",
+          "ligand_atom_serial": 17,
+          "ligand_atom_name": "CL",
+          "label": "MET143"
+        }
+      ]
+    }
+  ]
+}

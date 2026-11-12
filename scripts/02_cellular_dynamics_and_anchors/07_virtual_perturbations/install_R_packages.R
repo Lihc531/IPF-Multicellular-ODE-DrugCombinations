@@ -1,0 +1,5 @@
+cran <- c("Matrix", "MASS", "ggplot2", "remotes")
+missing <- setdiff(cran, rownames(installed.packages()))
+if (length(missing)) install.packages(missing)
+if (!"scTenifoldNet" %in% rownames(installed.packages())) install.packages("scTenifoldNet")
+if (!"scTenifoldKnk" %in% rownames(installed.packages())) install.packages("scTenifoldKnk")

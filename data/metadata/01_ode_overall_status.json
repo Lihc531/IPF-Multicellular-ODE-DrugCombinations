@@ -1,0 +1,32 @@
+{
+  "source_seed_summary_dir": "E:\\PythonProject\\results\\robustness_runs_v3\\05_neural_ode_seed_robustness\\SEED_STABILITY_SUMMARY_v2",
+  "source_threshold_runs": {
+    "min10_baseline": "E:\\PythonProject\\results\\robustness_runs_v3\\04_neural_ode_cellstate_threshold\\ODE_CELLSTATE_min10_baseline",
+    "min8": "E:\\PythonProject\\results\\robustness_runs_v3\\04_neural_ode_cellstate_threshold\\ODE_CELLSTATE_min8",
+    "min15": "E:\\PythonProject\\results\\robustness_runs_v3\\04_neural_ode_cellstate_threshold\\ODE_CELLSTATE_min15"
+  },
+  "seed_summary_verdict": "CAUTION_DIRECTIONALITY_SEED_SENSITIVITY",
+  "seed_summary_observed": {
+    "val_r2_range": 0.011750519275665283,
+    "val_mse_relative_range": 0.05622779572485565,
+    "max_stage_percentage_point_range": 35.71428571428572,
+    "max_disease_percentage_point_range": 17.280453257790374,
+    "median_state_projection_spearman": 0.7839911675930505,
+    "median_state_projection_sign_agreement": 0.8263795423956931,
+    "n_celltype_sensitivity_flags": 23,
+    "n_cluster_sensitivity_flags": 23,
+    "state_consistency_key_mode": "composite_state_key",
+    "state_consistency_n_common_states_unique": 2229
+  },
+  "seed_summary_checks": {
+    "all_runs_complete": true,
+    "val_r2_stable": true,
+    "val_mse_stable": true,
+    "stage_directionality_stable": false,
+    "disease_directionality_stable": false,
+    "state_projection_rank_stable": true,
+    "state_projection_sign_stable": true
+  },
+  "created_at": "2026-07-13T00:09:45+08:00",
+  "note": "Reliability weights are intended for downstream evidence weighting, not for removing rows automatically."
+}

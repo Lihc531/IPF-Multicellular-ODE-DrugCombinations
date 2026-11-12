@@ -1,0 +1,3 @@
+Vina Bridge Integrated Formal V3.1.1 — formal ligand preparation + Bortezomib-safe workflow
+Build date: 2026-08-01
+Scope: standard non-covalent Vina only; BORTEZOMIB/PSMB5 remains covalent_required and explicitly deferred
